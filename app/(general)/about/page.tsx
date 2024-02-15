@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About Page',
@@ -7,9 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
-  return (
-    <>
-      <span className='text-4xl'>About Page</span>
-    </>
-  );
+  return <span className='text-4xl'>About Page</span>;
 }
